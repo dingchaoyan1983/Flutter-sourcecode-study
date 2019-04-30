@@ -108,5 +108,5 @@
     return inflateWidget(newWidget, newSlot);
   }
 ```
-和react类似，这2个方法相互调用来build和update Electron tree
+和react类似，这2个方法相互调用来build和update Element tree
 而第一次创建element的时候，是通过 Widget 里面给出的配置来创建的 即 `final Element newChild = newWidget.createElement();`
